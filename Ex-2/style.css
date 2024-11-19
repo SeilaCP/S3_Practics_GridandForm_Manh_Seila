@@ -1,0 +1,74 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr;
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 1em;
+    column-gap: 1em;
+}
+
+.navBar
+{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 0 0.5em 0 0.5em;
+    border-right: solid 1px;
+}
+
+.containBar
+{
+    row-gap: 1em;
+}
+.searchBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar input{
+    height: 1em;
+}
+.you
+{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 0 0.5em 0 0.5em;
+    border: solid 1px white;
+    border-radius: 0.5em;
+}
+
+.you:hover
+{
+    border: solid 1px;
+    background-color: palevioletred;
+    box-shadow: 0 0.1em 0.1em;
+}
+.title
+{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.num
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.setting
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5em 0 0.5em;
+}

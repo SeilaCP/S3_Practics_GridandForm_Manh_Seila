@@ -1,0 +1,159 @@
+body{
+    overflow: hidden;
+}
+p{
+    margin: 6px;
+}
+.container
+{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+.productADT
+{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+.card
+{
+    display: flex;
+    padding: 0.5em;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 1em;
+    flex-grow: 1;
+    row-gap: 0.5em;
+}
+.product
+{
+    display: flex;
+    box-shadow: 1px 1px 0.3em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    align-items: center;
+}
+.product:hover
+{
+    box-shadow: 2px 2px 0.5em;
+}
+.productName
+{
+    align-self: start;
+}
+.productName p{
+    margin: 0px;
+}
+.information
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.information img{
+    border-radius: 1em;
+}
+.order
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 2px;
+    
+}
+
+.delivery
+{
+    padding: 1em;
+    width: 25vw;
+    border: solid 1px;
+    border-radius: 1em;
+}
+.freedelivery
+{
+    width: fit-content;
+    display: flex;
+    background-color: rgb(243, 242, 242);
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+.freedelivery button
+{
+    background-color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.inputCode
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 242, 242);
+    padding: 0.2em;
+    border-radius: 0.5em;
+    gap: 0.2em;
+}
+.inputCode button, input
+{
+    background-color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+.inputCode button
+{
+    width: 40%;
+}
+.inputCode button:hover
+{
+    background-color: skyblue;
+}
+.inputCode input{
+    width: 55%;
+}
+
+.bong .subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.bong .sub{
+    display: flex;
+    color: rgb(178, 192, 204);
+    justify-content: space-between;
+}
+.Checkout
+{
+    width: 100%;
+    background-color: rgb(46, 103, 219);
+    color: white;
+    border: none;
+    margin-bottom: 0.5em;
+    padding: 0.7em;
+    border-radius: 1em;
+    border: solid 0.1em  rgb(46, 103, 219);
+}
+.Checkout:hover
+{
+    background-color: aliceblue;
+    color: rgb(46, 103, 219);
+    border: solid 0.1em  rgb(46, 103, 219);
+    cursor:grab;
+}
+.Checkin
+{
+    width: 100%;
+    background-color: aliceblue;
+    border: solid 1px  rgb(46, 103, 219);
+    margin-bottom: 0.5em;
+    padding: 0.7em;
+    border-radius: 1em;
+}
+.Checkin:hover
+{
+    background-color: aliceblue;
+    color: rgb(46, 103, 219);
+    cursor:grab;
+}

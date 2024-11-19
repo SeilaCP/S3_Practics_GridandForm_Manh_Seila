@@ -1,0 +1,111 @@
+*
+{
+font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display: grid;
+    grid-template-rows: 1fr 4fr 0.5fr 0.5fr;
+    row-gap: 0.5em;
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 0.5em;
+}
+
+.profile
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1em;
+}
+.postDate
+{
+    color: gray;
+    font-size: 0.9em;
+}
+.mainprofile
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.profilePic
+{
+    border: solid 0.12em rgb(63, 102, 244);
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+    padding: 0.2em;
+    object-fit: cover;
+    cursor:alias;
+}
+
+p
+{
+    margin: 0px;
+}
+
+.mainContainer
+{
+    border: solid;
+    border-radius: 0.5em;
+    width: 45vw;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.react
+{
+    display: flex;
+    justify-content: space-between;
+}
+.share
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.comment
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.5em;
+}
+.comment input{
+    flex-grow: 1;
+    border-radius: 1em;
+}
+
+.commentProfile
+{
+    border: solid;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    padding: 0.2em;
+    object-fit: cover;
+}
+
+.commentProfile:hover
+{
+    border: solid white;
+}
